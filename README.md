@@ -6,7 +6,8 @@ So far, it works on Fedora 16, and I suppose that all the bunch of Linux distrib
 
 * inotify-tools
 
-    In order to install it simply run: sudo yum install inotify-tools
+    In order to install it simply run:
+    > sudo yum install inotify-tools
     
 ### Usage:
 
@@ -14,8 +15,8 @@ Locate PHPAutotest.sh in your project's root and run it in background, passing a
 
 * Sample:
 
-> $sh PHPAutotest.sh src
+> $ sh PHPAutotest.sh src
 
-Also, you can pass as a second argument the folder where you want to retrieve your phpunit config file (by default it expects it to be in _app/_):
+Also, you can pass as a second argument the folder where you want to retrieve your phpunit config file (by default it expects it to be in app/):
 
-> $sh PHPAutotest.sh src app/
+> $ sh PHPAutotest.sh src app/
