@@ -19,7 +19,7 @@ if [ ! -z $folderBeingWatched ]; then
 
 	while [ true ]; do
 		inotifywait -qq -e modify $folderBeingWatched -r
-		if phpunit -c $phpunitConfigPath | tail -n3 | grep "Ok"; then
+		if phpunit -c $phpunitConfigPath | tail -n3 | grep "OK"; then
 			notify-send --hint=int:transient:1 --icon=$allTestsOkIcon "$allTestsOkTitle" "$allTestsOkMessage" --expire-time=1500
 		else
 			notify-send --hint=int:transient:1 --icon=$someTestsFailedIcon "$someTestsFailedTitle" "$someTestsFailedMessage" --expire-time=1500
