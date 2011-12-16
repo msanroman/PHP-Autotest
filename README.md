@@ -1,6 +1,6 @@
 # PHP countinous test runner (Now with pirate messages! Yarr!)
 
-So far, it works on Fedora 16, and I suppose that all the bunch of Linux distributions that uses NotifyOSD.
+So far, it works on Fedora 16, and I suppose that will work well with all the bunch of Linux distributions that uses NotifyOSD.
 
 ## Dependencies:
 
