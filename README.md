@@ -7,7 +7,8 @@ So far, it works on Fedora 16, and I suppose that all the bunch of Linux distrib
 * inotify-tools
 
     In order to install it simply run:
-    > sudo yum install inotify-tools
+    
+> sudo yum install inotify-tools
     
 ### Usage:
 
