@@ -1,4 +1,4 @@
-# **P**irate **H**yper **P**ro countinous test runner (Yarr!)
+# PHP countinous test runner (Now with pirate messages! Yarr!)
 
 So far, it works on Fedora 16, and I suppose that all the bunch of Linux distributions that uses NotifyOSD.
 
