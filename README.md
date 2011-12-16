@@ -8,7 +8,7 @@ So far, it works on Fedora 16, and I suppose that will work well with all the bu
 
     In order to install it simply run:
     
-> sudo yum install inotify-tools
+> $ sudo yum install inotify-tools
     
 ### Usage:
 
