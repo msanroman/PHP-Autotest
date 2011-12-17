@@ -10,7 +10,7 @@ So far, it works on Fedora 16, and I suppose that will work well with all the bu
     
 > $ sudo yum install inotify-tools
     
-### Usage:
+## Usage:
 
 Locate PHPAutotest.sh in your project's root and run it in background, passing as argument the folder you want to _listen_ for changes in order to start a test run when some of its files are modified.
 
